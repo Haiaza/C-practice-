@@ -9,10 +9,9 @@ int main(){
     int jy;
     int ey;
 
-    ey = jy / 12;
-
-    cout << "How many Jupiter yeats are we comparing? \n";
+    cout << "How many Jupiter years are we comparing? \n";
     cin >> jy;
+    ey = jy / 12;
     cout << jy << " Jovian years is equivalent to " << ey << " years on Earth";
 
     return 0;
